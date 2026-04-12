@@ -1,0 +1,292 @@
+/* Agent Doula — Landing page styles
+   Warm Cascadia forest palette inspired by en passant mycelia:
+   peach-cream background, cedar bark body, forest green button,
+   Puget Sound blue-gray links (water). Sans-serif body with
+   serif headings. Generous whitespace, mobile-first. */
+
+/* Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+  color: #2c2416;
+  background-color: #f4ebe0;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "kern", "liga";
+}
+
+main {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 5rem;
+}
+
+section {
+  margin-bottom: 4rem;
+}
+
+/* Typography */
+h1 {
+  font-family: 'Lora', Georgia, 'Times New Roman', serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.15;
+  margin: 0 0 2rem;
+  color: #1a140a;
+  letter-spacing: -0.015em;
+}
+
+h2 {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 0 0 1.5rem;
+  color: #6b5a3d;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+}
+
+p {
+  margin: 0 0 1.25rem;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+em {
+  font-style: italic;
+  color: #3a2f1f;
+}
+
+strong {
+  font-weight: 600;
+  color: #1a140a;
+}
+
+a {
+  color: #3f5a68;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: color 0.15s ease;
+}
+
+a:hover {
+  color: #28414f;
+}
+
+/* Hero */
+.hero {
+  padding-top: 1.5rem;
+}
+
+.hero h1 {
+  margin-bottom: 2.25rem;
+}
+
+/* CTA block (in hero) — soft card container */
+.cta {
+  margin-top: 2.75rem;
+  background-color: #faf6ee;
+  border: 1px solid #e4dcc6;
+  border-radius: 12px;
+  padding: 1.75rem 1.5rem;
+  box-shadow: 0 2px 14px rgba(44, 36, 22, 0.05);
+}
+
+.cta-lead {
+  margin-bottom: 1.25rem;
+  font-size: 1rem;
+  color: #3a2f1f;
+}
+
+/* Form */
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-width: 28rem;
+}
+
+.signup-form input[type="email"] {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 1rem;
+  padding: 0.85rem 1rem;
+  border: 1px solid #c9bea0;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #2c2416;
+  width: 100%;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.signup-form input[type="email"]:focus {
+  outline: none;
+  border-color: #3f5a68;
+  box-shadow: 0 0 0 3px rgba(63, 90, 104, 0.18);
+}
+
+.signup-form input[type="email"]::placeholder {
+  color: #9a907a;
+}
+
+.signup-form button {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.9rem 1.75rem;
+  background-color: #3e5535;
+  color: #faf6ee;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+  width: 100%;
+  letter-spacing: 0.01em;
+}
+
+.signup-form button:hover {
+  background-color: #2a3e24;
+}
+
+.signup-form button:active {
+  transform: translateY(1px);
+}
+
+@media (min-width: 520px) {
+  .signup-form {
+    flex-direction: row;
+  }
+
+  .signup-form input[type="email"] {
+    flex: 1;
+  }
+
+  .signup-form button {
+    width: auto;
+    white-space: nowrap;
+  }
+}
+
+/* Letters preview */
+.letters-preview p {
+  margin-bottom: 1rem;
+}
+
+.letters-preview strong {
+  color: #1a140a;
+  margin-right: 0.25rem;
+}
+
+/* Founder section */
+.founder .portrait {
+  display: block;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin: 0 auto 2rem;
+  box-shadow: 0 4px 20px rgba(26, 20, 10, 0.15);
+}
+
+/* Bottom CTA — soft card container */
+.cta-bottom {
+  text-align: center;
+  padding: 2.25rem 1.75rem;
+  margin-top: 4rem;
+  background-color: #faf6ee;
+  border: 1px solid #e4dcc6;
+  border-radius: 12px;
+  box-shadow: 0 2px 14px rgba(44, 36, 22, 0.05);
+}
+
+.cta-bottom h2 {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 1.65rem;
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: -0.01em;
+  color: #1a140a;
+  margin-bottom: 0.75rem;
+}
+
+.cta-bottom .cta-lead {
+  margin-bottom: 1.5rem;
+  color: #6b5a3d;
+}
+
+.cta-bottom .signup-form {
+  margin: 0 auto;
+}
+
+/* Footer */
+footer {
+  margin-top: 4.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid #d9cfb6;
+  font-size: 0.92rem;
+  color: #6b5a3d;
+}
+
+footer p {
+  margin-bottom: 1rem;
+}
+
+footer p:last-child {
+  margin-bottom: 0;
+}
+
+footer strong {
+  color: #3a2f1f;
+}
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+  main {
+    padding: 2rem 1.25rem 4rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  section {
+    margin-bottom: 3.25rem;
+  }
+
+  .cta {
+    padding: 1.5rem 1.25rem;
+  }
+
+  .cta-bottom {
+    padding: 2rem 1.25rem;
+  }
+
+  .cta-bottom h2 {
+    font-size: 1.4rem;
+  }
+
+  .founder .portrait {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+/* Selection — cedar */
+::selection {
+  background-color: rgba(109, 90, 61, 0.24);
+  color: #1a140a;
+}
