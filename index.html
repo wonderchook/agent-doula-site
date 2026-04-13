@@ -32,11 +32,15 @@
       <div class="cta">
         <p class="cta-lead"><strong>Start with Agent Basics.</strong> Three letters to get your bearings. For people who want to go on a journey, not shop for a tool.</p>
 
-        <!-- TODO: replace action="#" with your form provider endpoint.
-             Options: Formspree, ConvertKit, Beehiiv, Substack, Mailchimp.
-             See README.md for details. -->
-        <form action="#" method="POST" class="signup-form" aria-label="Sign up for Agent Basics">
-          <input type="email" name="email" placeholder="your email" required aria-label="Email address">
+        <form action="https://app.kit.com/forms/9320407/subscriptions"
+              method="post"
+              class="signup-form seva-form formkit-form"
+              data-sv-form="9320407"
+              data-uid="77aba57be9"
+              data-format="inline"
+              data-version="5"
+              aria-label="Sign up for Agent Basics">
+          <input type="email" name="email_address" placeholder="your email" required aria-label="Email address">
           <button type="submit">Send me the first letter</button>
         </form>
       </div>
@@ -70,8 +74,15 @@
       <h2>Start with Agent Basics.</h2>
       <p class="cta-lead">Three letters to get your bearings.</p>
 
-      <form action="#" method="POST" class="signup-form" aria-label="Sign up for Agent Basics">
-        <input type="email" name="email" placeholder="your email" required aria-label="Email address">
+      <form action="https://app.kit.com/forms/9320407/subscriptions"
+            method="post"
+            class="signup-form seva-form formkit-form"
+            data-sv-form="9320407"
+            data-uid="77aba57be9"
+            data-format="inline"
+            data-version="5"
+            aria-label="Sign up for Agent Basics">
+        <input type="email" name="email_address" placeholder="your email" required aria-label="Email address">
         <button type="submit">Send me the first letter</button>
       </form>
     </section>
@@ -83,5 +94,7 @@
     </footer>
 
   </main>
+
+  <script src="https://f.convertkit.com/ckjs/ck.5.js"></script>
 </body>
 </html>

@@ -290,3 +290,25 @@ footer strong {
   background-color: rgba(109, 90, 61, 0.24);
   color: #1a140a;
 }
+
+/* Kit form integration — hide Kit's injected chrome to preserve register */
+.formkit-powered-by-convertkit-container,
+.formkit-alert,
+.formkit-spinner {
+  display: none !important;
+}
+
+/* Kit inline success message (if shown instead of redirect) — restyle
+   so it matches our palette when it appears */
+.formkit-form[data-uid] .formkit-alert-success {
+  display: block !important;
+  background-color: #faf6ee;
+  border: 1px solid #c9bea0;
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  color: #2c2416;
+  margin: 1rem 0 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.95rem;
+  text-align: center;
+}
