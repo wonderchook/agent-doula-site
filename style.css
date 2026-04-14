@@ -344,6 +344,125 @@ footer strong {
   }
 }
 
+/* First small thing page (/first-small-thing/) */
+.first-small-thing {
+  max-width: 640px;
+  padding-top: 3rem;
+}
+
+.first-small-thing .intro {
+  margin-bottom: 3.5rem;
+}
+
+.first-small-thing .try {
+  margin-bottom: 3.5rem;
+}
+
+.first-small-thing h2 {
+  font-family: 'Lora', Georgia, 'Times New Roman', serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 0 0 1rem;
+  color: #1a140a;
+  text-transform: none;
+  letter-spacing: -0.005em;
+}
+
+.first-small-thing .prompt-box {
+  background-color: #faf6ee;
+  border: 1px solid #c9bea0;
+  border-radius: 10px;
+  padding: 1.25rem 1.25rem 1.1rem;
+  margin: 1.25rem 0 1.25rem;
+  box-shadow: 0 1px 8px rgba(44, 36, 22, 0.04);
+}
+
+.first-small-thing .prompt-text {
+  font-family: 'Lora', Georgia, 'Times New Roman', serif;
+  font-size: 1rem;
+  line-height: 1.65;
+  color: #2c2416;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  margin: 0 0 1rem;
+  padding: 0;
+  background: none;
+}
+
+.first-small-thing .copy-btn {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.82rem;
+  font-weight: 500;
+  padding: 0.45rem 0.95rem;
+  background-color: #3e5535;
+  color: #faf6ee;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+  letter-spacing: 0.02em;
+}
+
+.first-small-thing .copy-btn:hover {
+  background-color: #2a3e24;
+}
+
+.first-small-thing .copy-btn.copied {
+  background-color: #6b5a3d;
+}
+
+.first-small-thing .notice {
+  font-size: 0.95rem;
+  color: #3a2f1f;
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+.first-small-thing .closing {
+  margin-bottom: 2.5rem;
+}
+
+.first-small-thing .signoff {
+  margin-top: 2rem;
+  color: #6b5a3d;
+}
+
+.first-small-thing .back {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #d9cfb6;
+  font-size: 0.92rem;
+  color: #6b5a3d;
+  margin-bottom: 0;
+}
+
+.first-small-thing .back a {
+  color: #6b5a3d;
+}
+
+.first-small-thing .back a:hover {
+  color: #2c2416;
+}
+
+@media (max-width: 600px) {
+  .first-small-thing {
+    padding-top: 1.5rem;
+  }
+
+  .first-small-thing h2 {
+    font-size: 1.2rem;
+  }
+
+  .first-small-thing .prompt-box {
+    padding: 1rem 1rem 0.9rem;
+  }
+
+  .first-small-thing .prompt-text {
+    font-size: 0.95rem;
+  }
+}
+
 /* Kit form integration — hide Kit's injected chrome to preserve register */
 .formkit-powered-by-convertkit-container,
 .formkit-alert,
