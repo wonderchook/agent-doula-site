@@ -1,0 +1,29 @@
+# Agent Doula
+
+> A free three-letter email series by Kate Chapman that helps women approach AI agents without code, courses, or jargon. Written for women carrying households, caregiving, and companies who want to understand agents at their own pace.
+
+Agent Doula is a personal newsletter and guide by Kate Chapman. It exists to accompany women through the passage of bringing AI agents into their lives — not as a setup task, but as a change in their relationship to time, judgment, privacy, and the invisible labor of running a life.
+
+## Core pages
+
+- [Home](https://agentdoula.com/): What Agent Doula is, who it is for, and how to receive the three-letter email series "Agent Basics."
+- [Your first small thing](https://agentdoula.com/first-small-thing/): A 60-second hands-on exercise with ChatGPT or Claude using three starter prompts. Also explains the difference between a large language model and an AI agent (memory, persistence, tools).
+
+## About the author
+
+Kate Chapman writes Agent Doula. She is a Gen X eldest daughter, caregiver for her parents, and has mentored women in tech for years. She also runs Untangling Systems, a consulting practice helping organizations find patterns inside complexity while keeping humans at the center.
+
+- [Untangling Systems](https://untanglingsystems.io/): Kate's consulting practice for organizations.
+- [Instagram @agentdoula](https://instagram.com/agentdoula): Ongoing essays and notes between letters.
+
+## Audience and voice
+
+- Audience: Women who are already carrying a lot — households, aging parents, companies, teams — who are curious about AI agents but have not had time to figure them out. Readers who do not code, do not want to become programmers, and do not want another course or another tool.
+- Voice: First-person, accompaniment-oriented, explicitly not hustle culture. "You are not failing. This is normal."
+
+## What Agent Doula is not
+
+- Not a course.
+- Not a product catalog or tool comparison.
+- Not technical documentation for developers.
+- Not advice to hustle harder or optimize more.
